@@ -1,7 +1,17 @@
 ﻿body {
+    background-color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-items:center;
+}
+p {
+    vertical-align: center;
+}
 
+ol {
+    list-style-type:none;
 }
 input{
-    width: 200px;
-    display: inline-block;
+    width: 140px;
+
 }
