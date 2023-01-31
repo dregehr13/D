@@ -5,6 +5,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\lib\bootstrap\css\**" />
+    <Content Remove="wwwroot\lib\bootstrap\css\**" />
+    <EmbeddedResource Remove="wwwroot\lib\bootstrap\css\**" />
+    <None Remove="wwwroot\lib\bootstrap\css\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\startbootstrap-scrolling-nav-gh-pages.zip" />
+    <Content Remove="wwwroot\styles.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\img\Attachment.jpeg" />
     <None Include="wwwroot\index.html" />
   </ItemGroup>

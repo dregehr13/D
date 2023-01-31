@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <title>Douglas Bubbletrousers</title>
+    <link rel="icon" type="image/x-icon" href="img/shepherd.png">
+    <link href="css/StyleSheet.css" rel="stylesheet" />
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
@@ -23,33 +25,37 @@
 
      <h2>Grade Calculator</h2>
 
+    <form>
         <label>Assignments:</label>
-        <input />
+        <input id="assignments"/>
         <br />
 
         <label>Group Project:</label>
-        <input />
+        <input id="project"/>
         <br />
 
         <label>Quizzes:</label>
-        <input />
+        <input id="quizzes"/>
         <br />
 
         <label>Midterm Exam:</label>
-        <input />
+        <input id="midterm"/>
         <br />
 
         <label>Final Exam:</label>
-        <input />
+        <input id="final"/>
         <br />
 
         <label>INTEX:</label>
-        <input />
+        <input id="intex"/>
         <br />
-        <input type="button" value="Calculate Grade"/>
+        <input id="calcbutton" type="button" value="Calculate Grade"/>
+    </form>
 
+    <h3 id="result"></h3>
 
-        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
         <script src="lib/jquery/jquery-3.6.3.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/JavaScript.js"></script>
 </body>
 </html>
