@@ -14,12 +14,14 @@ namespace dougFirstWebApp.Controllers
             return View();
         }
 
+        //get object for form
         [HttpGet]
         public IActionResult GradeCalcForm ()
         {
             return View();
         }
 
+        //post object for form
         [HttpPost]
         public IActionResult GradeCalcForm(GradeCalcFormModel model)
         {

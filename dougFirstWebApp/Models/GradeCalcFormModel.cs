@@ -8,6 +8,8 @@ namespace dougFirstWebApp.Models
 {
     public class GradeCalcFormModel
     {
+     //get and set functions for all input values
+     //validated by range 0-100
         [Range(0, 100)]
         public int Assignments { get; set; }
 
