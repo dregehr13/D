@@ -18,7 +18,6 @@
 
   <ItemGroup>
     <None Include="wwwroot\img\Attachment.jpeg" />
-    <None Include="wwwroot\index.html" />
   </ItemGroup>
 
 </Project>
