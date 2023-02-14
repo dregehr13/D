@@ -1,29 +1,25 @@
-﻿using dougFirstWebApp.Models;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Mvc;
+using MovieCollection.Models;
 
-namespace dougFirstWebApp.Controllers
+namespace MovieCollection.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index ()
-        {           
+        public IActionResult Index()
+        {
             return View();
         }
 
         //get object for form
         [HttpGet]
-        public IActionResult GradeCalcForm ()
+        public IActionResult MovieEntryForm()
         {
             return View();
         }
 
         //post object for form
         [HttpPost]
-        public IActionResult GradeCalcForm(GradeCalcFormModel model)
+        public IActionResult MovieEntryForm(MovieEntry model)
         {
             return View();
         }
